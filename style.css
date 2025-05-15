@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+}
+header{
+    background-color: #051A20;
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header nav ul{
+    display: none;
+}
+header nav ul li{
+    list-style: none;
+    color: #C9EADB;
+}
+nav ul li a{
+    margin: 0 1em 0 1rem;
+    color: #DCEBFA;
+    text-decoration: none;
+}
+li:visited{
+    color: #C9EADB;
+}
+
+@media (min-width:768px) {
+    header nav img{
+        display: none;
+    }
+    header nav ul{
+        display: flex;
+    }
+
+}
