@@ -1,4 +1,4 @@
-body{
+body,h1{
     margin: 0;
 }
 header{
@@ -7,6 +7,14 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+h1{
+    text-align: center;
+    padding: 1rem;
+}
+p{
+    text-align: justify;
+    padding: 0 2rem;
 }
 header nav ul{
     display: none;
@@ -23,7 +31,10 @@ nav ul li a{
 li:visited{
     color: #C9EADB;
 }
-
+.intro{
+    background-color: #C9EADB;
+    padding: 1rem;
+}
 @media (min-width:768px) {
     header nav img{
         display: none;
