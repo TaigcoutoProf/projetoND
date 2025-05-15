@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 body,h1{
     margin: 0;
+    font-family: "Inter", sans-serif;;
 }
 header{
     background-color: #051A20;
@@ -11,10 +13,12 @@ header{
 h1{
     text-align: center;
     padding: 1rem;
+    font-weight: 800;
 }
 p{
     text-align: justify;
     padding: 0 2rem;
+    font-weight: 300;
 }
 header nav ul{
     display: none;
@@ -35,6 +39,18 @@ li:visited{
     background-color: #C9EADB;
     padding: 1rem;
 }
+.classicos{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.classicos div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+}
 @media (min-width:768px) {
     header nav img{
         display: none;
@@ -42,5 +58,13 @@ li:visited{
     header nav ul{
         display: flex;
     }
-
+    .intro{
+        background-image: url("img/BG-SECTION1.png");
+        background-size: cover;
+        padding: 3rem 8rem;
+    }
+    .classicos{
+        flex-direction: row;
+        justify-content: space-between;
+    }
 }
